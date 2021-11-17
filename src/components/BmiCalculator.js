@@ -17,7 +17,7 @@ const BmiCalculator = props => {
         else{
             metricBmi(height, weight);
         }
-        
+         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [height, weight, inches])
     const onChangeInput = e => {
         const { name, value } = e.target;
