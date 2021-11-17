@@ -4,7 +4,7 @@ import BMI from './components/BMI';
 
 function App() {
   return (
-    <div className="App">
+    <div className="main-wrapper">
       <BMI/>
     </div>
   );

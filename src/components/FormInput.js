@@ -12,8 +12,8 @@ const FormInput = props => {
 
 
     return (
-        <div className="col-md-3 form-group">
-            <span className="">{title}:</span>
+        <div className="col-md-12 form-group">
+            <span className="font-weight-bold">{title}:</span>
             <input className="form-control form-control-sm" type={type} name={name} value={value} onChange={onChange} />
         </div>
     )
